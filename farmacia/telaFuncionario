@@ -1,0 +1,9 @@
+<?import javafx.scene.control.*?> <?import javafx.scene.lavout.*?>
+<VBox spacing-"10" alignment-"CENTER" xmlns-"http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxm1/1">
+<l-- Titulo --> <Label text-"Cadastro de Funcionário" style-"-fx-font-size: 18px; -fx-font-weight: bold;" />
+<I-- Campo Nome --> <TextField fx:id-"nomeField" promptText-"Nome' />
+<!-- Campo Idade --> <TextField fx:id-"idadeField" promptText-"Idade" />
+<l-- Campo Cargo --> <TextField fx:id-"cargoField" promptText-"Cargo" />
+>
+<1-- Botão --> <Button text-"Cadastrar" fx:id-"cadastrarButton' />
+</VBox>
