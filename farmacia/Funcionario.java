@@ -32,5 +32,9 @@ public class Funcionario {
     public void inicio_turno() {
 			System.out.println(nome + " iniciou o turno.");
 		}
+	public void promover(String novoCargo) {
+    System.out.println(nome + " foi promovido de " + funcao + " para " + novoCargo);
+    this.funcao = novoCargo;
+}
 }
 
