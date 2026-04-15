@@ -24,7 +24,7 @@ public class Fruta {
         return quantidade;
     }
     //Mostrar informações da fruta desejada na tela
-    public void exibir() {
+    public void exibirEstoque() {
     	System.out.println("Fruta: " + nome);
       System.out.println("\Tipo: " + tipo);
       System.out.println("\nQuantidade: " + quantidade);
