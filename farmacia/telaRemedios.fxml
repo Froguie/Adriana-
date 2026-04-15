@@ -5,5 +5,6 @@
 <l-- Campo Marca --> <TextField fx:id="marcaField" promptText-"Marca" /
 <!-- Campo Preco --> <TextField fx:id-"precoField" promptText-"Preco" />
 <|-- Campo MG --> <TextField fx:id "mgField" promptText="Dosagem (mg)" />
-<!-- Botio --> text-"Cadastran" <Button fx:id-"cadastnarButton" />
+<!-- Button--> text-"Aplicar desconto" <Button fx:id-"descontoButton" />
+<l-- Button--> <Button text-"Atualizar Preço" fx:id-"atualizarButton" />
 </VBox>
