@@ -5,5 +5,7 @@
 fx:id-"nomeField" promptText-"Nome da fruta" />
 <!-- Campo Tipo --> <TextField fx:id-"tipoField" promptText-"Tipo" />
 <!-- Campo Quantidade --> <TextField fx:id-"quantidadeField" promptText="Quantidade"
-<!-- Botão --> <Button text-"Cadastrar" fx:id-"cadastrarButton" />
+<!-- Botão --> <Button text-"Adicionar Quantidade" fx:id-"adcQuantidadeButton" />
+<!-- Botão --> <Button text-"Adicionar Fruta" fx:id-"adcFrutaButton" />
+<!-- Botão --> <Button text-"Exibir Estoque" fx:id-"exibirEstoqueButton" />
 </VBox>
