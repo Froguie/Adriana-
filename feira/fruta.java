@@ -29,4 +29,12 @@ public class Fruta {
       System.out.println("\Tipo: " + tipo);
       System.out.println("\nQuantidade: " + quantidade);
     }
+    public void adicionarQuantidade(int qtd) {
+    this.quantidade += qtd;
+}
+    public void adicionarFruta(String nome, String tipo, int quantidade) {
+    this.nome = nome;
+    this.tipo = tipo;
+    this.quantidade = quantidade;
+}
 }
