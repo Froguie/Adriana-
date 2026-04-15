@@ -3,7 +3,6 @@ package feira;
 
 public class Cliente {
     private String nome;
-    private int idade;
     private String telefone;
     public String getNome() {
         return nome;
@@ -21,4 +20,13 @@ public class Cliente {
 	    System.out.println("Nome: "+nome);
 	    System.out.println("\nTelefone: "+telefone);
 	}
+	public void atualizarTelefone(String novoTelefone) {
+    System.out.println("Telefone de " + nome + " atualizado de " + telefone + " para " + novoTelefone);
+    this.telefone = novoTelefone;
+}
+	public void atualizarDados(String novoNome, int novaIdade, String novoTelefone) {
+    this.nome = novoNome;
+    this.idade = novaIdade;
+    this.telefone = novoTelefone;
+}
 }
