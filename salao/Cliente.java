@@ -34,9 +34,8 @@ public class Cliente {
     System.out.println("Telefone de " + nome + " atualizado de " + telefone + " para " + novoTelefone);
     this.telefone = novoTelefone;
 }
-	public void atualizarDados(String novoNome, int novaIdade, String novoTelefone) {
+	public void atualizarDados(String novoNome, int novaIdade) {
     this.nome = novoNome;
     this.idade = novaIdade;
-    this.telefone = novoTelefone;
 }
 }
