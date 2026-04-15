@@ -16,7 +16,7 @@ public class Cliente {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
-    public void mostrarinfo() {
+    public void buscarinfo() {
 	    System.out.println("Nome: "+nome);
 	    System.out.println("\nTelefone: "+telefone);
 	}
@@ -24,9 +24,9 @@ public class Cliente {
     System.out.println("Telefone de " + nome + " atualizado de " + telefone + " para " + novoTelefone);
     this.telefone = novoTelefone;
 }
-	public void atualizarDados(String novoNome, int novaIdade, String novoTelefone) {
+	public void cadastrarInfo(String novoNome, int novaIdade) {
     this.nome = novoNome;
     this.idade = novaIdade;
-    this.telefone = novoTelefone;
+    
 }
 }
