@@ -5,5 +5,7 @@
 <!-- Campo Idade --> <TextField fx:id-"idadeField" promptText-"Idade" />
 <l-- Campo Cargo --> <TextField fx:id-"cargoField" promptText-"Cargo" />
 >
-<1-- Botão --> <Button text-"Cadastrar" fx:id-"cadastrarButton' />
+<l-- Button --> <Button text-"Buscar info" fx:id-"buscarButton" />
+<l-- Button --> <Button text-"Iniciar turno" fx:id-"inicioButton" />
+<l-- Button --> <Button text-"Promover" fx:id-"promoverButton" />
 </VBox>
