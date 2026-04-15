@@ -9,16 +9,16 @@ public class Corte {
 		this.tipo = tipo;
 	}
 	public void setPreco(double preco) {
-		this.idade = idade;
+		this.preco = preco;
 	}
 	public String getTipo() {
 		return tipo;
 	}
-	public int getPreco() {
+	public double getPreco() {
 		return preco;
 	}
     public void mostrarinfo () {
     	System.out.println("Funcionário: " + tipo);
-        System.out.println("\nIdade: " + preco);
+        System.out.println("\ndouble: " + preco);
     }
 }
