@@ -4,5 +4,7 @@
 <!-- Canpo None --> <TextField fx:id-"nomeField" promptText-"Nome" >
 <!-- Campo Horsrio --> <TextField fx:id-"horarioField" promptText-"Horário" />
 <!-- Campo Idade --> <TextField fx:id-"idadeField" promptText-"Idade" />
-<l-- Botio --> <Button text-"Cadastrar" fx:id-"cadastrarButton" />
+<l-- Botio --> <Button text-"Atualizar idade" fx:id-"attidadeButton" />
+<l-- Botio --> <Button text-"Iniciar turno" fx:id-"iniciarButton" />
+<l-- Botio --> <Button text-"Buscar info" fx:id-"buscarButton" />
 </VBox>
