@@ -5,6 +5,7 @@ public class Funcionario {
 	private String nome;
 	private String funcao;
 	private int idade;
+	
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
