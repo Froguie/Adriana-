@@ -1,8 +1,8 @@
 <?import javafx.scene.control.*?> <?import javafx.scene.layout.*?>
 <VBox spacing-"10" alignment-"CENTER" xmnlns-"http://javafx.com/javafx/8" xmnlns:fx-"http://javafx.com/fxml/1">
 <!-- Título --> <Label text-"Cadastro de Funcionário" style-"-fx-font-size: 18px; -fx-font-weight: bold;" />
-<l-- Canpo None --> <TextField fx:id-"nomeField" promptText-"Nome" >
-<l-- Campo Horsrio --> <TextField fx:id-"horarioField" promptText-"Horário" />
-<l-- Campo Idade --> <TextField fx:id-"idadeField" promptText-"Idade" />
+<!-- Canpo None --> <TextField fx:id-"nomeField" promptText-"Nome" >
+<!-- Campo Horsrio --> <TextField fx:id-"horarioField" promptText-"Horário" />
+<!-- Campo Idade --> <TextField fx:id-"idadeField" promptText-"Idade" />
 <l-- Botio --> <Button text-"Cadastrar" fx:id-"cadastrarButton" />
 </VBox>
