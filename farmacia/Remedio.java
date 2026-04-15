@@ -45,8 +45,8 @@ public class Remedio{
 public void aplicarDesconto(double porcentagem) {
     preco -= preco * (porcentagem / 100);
 }
-	public void aumentarPreco(double valor) {
-    preco += valor;
+	public void atualizarPreco(double valor) {
+    preco = valor;
 }
     
 }
