@@ -21,4 +21,10 @@ public class Corte {
     	System.out.println("Funcionário: " + tipo);
         System.out.println("\ndouble: " + preco);
     }
+	public void aplicarDesconto(double porcentagem) {
+    preco -= preco * (porcentagem / 100);
+}
+	public void aumentarPreco(double valor) {
+    preco += valor;
+}
 }
