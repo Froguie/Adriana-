@@ -26,4 +26,12 @@ public class Funcionario {
         System.out.println("\nHorario: " + horario);
         System.out.println("\nIdade: " + idade);
     }
+	public void fazerAniversario() {
+    this.idade++;
+    System.out.println(nome + " fez aniversário! Nova idade: " + idade);
+	}
+	public void promover(String novoCargo) {
+    System.out.println(nome + " foi promovido de " + funcao + " para " + novoCargo);
+    this.funcao = novoCargo;
+}
 }
