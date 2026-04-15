@@ -7,6 +7,6 @@ spacing-"10" alignment-"CENTER" xmlns-"http://javafx.com/javafx/8" xnlns:fx-"htt
 <!-- Campo Idade --> <TextField fx:id-"idadeField" promptText-"Idade" />
 <!-- Campo Telefone --> <TextField fx;id-"telefoneFleld" promptText="Telefone" />
 <!-- Botão --> <Button text-"Buscar info" fx:id-"buscarButton" />
-<l-- Button --> <Button text-"Atualizar telefone" fx:id-"telefoneButton" />
-<l-- Button --> <Button text-"Atualizar dados" fx:id-"dadosButton" />
+<!-- Button --> <Button text-"Atualizar telefone" fx:id-"telefoneButton" />
+<!-- Button --> <Button text-"Atualizar dados" fx:id-"dadosButton" />
 </VBox>
