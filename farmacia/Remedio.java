@@ -42,7 +42,12 @@ public class Remedio{
     public void setPreco(double preco){
       this.preco = preco;
     }
-
+public void aplicarDesconto(double porcentagem) {
+    preco -= preco * (porcentagem / 100);
+}
+	public void aumentarPreco(double valor) {
+    preco += valor;
+}
     
 }
 
