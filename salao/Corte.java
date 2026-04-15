@@ -18,8 +18,8 @@ public class Corte {
 		return preco;
 	}
     public void mostrarinfo () {
-    	System.out.println("Funcionário: " + tipo);
-        System.out.println("\ndouble: " + preco);
+    	System.out.println("Tipo: " + tipo);
+        System.out.println("\nPreço: " + preco);
     }
 	public void aplicarDesconto(double porcentagem) {
     preco -= preco * (porcentagem / 100);
