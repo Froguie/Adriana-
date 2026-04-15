@@ -1,10 +1,10 @@
 <?import javafx.scene.control.*?> <?import javafx.scene.layout.*?>
 <VBox spacing-"10" alignment-"cENTER" xnins-"http://javafx.com/javafx/8" xnlns:fx-"http://javafx.com/fxaml/1">
-<l-- TÍtulo --> <Label text-"Cadastro de Remédios" style-"-fx-font-size: 18px; -fx-font-weight: bold;" />
-<l-- Campo Noue --> <TextField fx:id-"nomeField" promptText="Nome do remédio" />
-<l-- Campo Marca --> <TextField fx:id="marcaField" promptText-"Marca" /
+<!-- TÍtulo --> <Label text-"Cadastro de Remédios" style-"-fx-font-size: 18px; -fx-font-weight: bold;" />
+<!-- Campo Noue --> <TextField fx:id-"nomeField" promptText="Nome do remédio" />
+<!-- Campo Marca --> <TextField fx:id="marcaField" promptText-"Marca" /
 <!-- Campo Preco --> <TextField fx:id-"precoField" promptText-"Preco" />
-<|-- Campo MG --> <TextField fx:id "mgField" promptText="Dosagem (mg)" />
+<!-- Campo MG --> <TextField fx:id "mgField" promptText="Dosagem (mg)" />
 <!-- Button--> text-"Aplicar desconto" <Button fx:id-"descontoButton" />
-<l-- Button--> <Button text-"Atualizar Preço" fx:id-"atualizarButton" />
+<!-- Button--> <Button text-"Atualizar Preço" fx:id-"atualizarButton" />
 </VBox>
