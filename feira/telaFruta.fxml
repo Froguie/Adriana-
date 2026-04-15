@@ -1,4 +1,5 @@
-<?import javafx.scene.control.*?> <?import javafx.scene.layout.*>
+<?import javafx.scene.control.*?> 
+<?import javafx.scene.layout.*>
 <VBox spacing-"10" alignment-"CENTER" xmins-"http://javafx.com/javafx/8" xmlns:fx-"http://javafx.com/fxm1/1">
 <!-- Titulo --> <Label text-"Cadastro de Fruta" style-"-fx-font-size: 18px; -fx-font-weight: bold;" />
 <!-- Campo None --> <TextField
