@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER"
+      xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1">
+
+    <!-- Título -->
+    <Label text="Cadastro de Corte"
+           style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+    <!-- Campo Tipo -->
+    <TextField fx:id="tipoField" promptText="Tipo de Corte" />
+
+    <!-- Campo Preço -->
+    <TextField fx:id="precoField" promptText="Preço" />
+
+    <!-- Botões -->
+    <Button text="Aplicar Desconto" fx:id="descontoButton" />
+    
+    <Button text="Aumentar Preço" fx:id="aumentarButton" />
+    
+    <Button text="Buscar Info" fx:id="buscarButton" />
+
+</VBox>
