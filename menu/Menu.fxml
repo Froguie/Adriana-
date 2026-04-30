@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox spacing="15" alignment="CENTER"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="menu.MenuController">
+
+    <Button text="Ir para Farmácia" onAction="#irParaFarmacia"/>
+    <Button text="Ir para Feira" onAction="#irParaFeira"/>
+    <Button text="Ir para Salão" onAction="#irParaSalao"/>
+
+</VBox>
