@@ -12,7 +12,7 @@ public class SalaoController {
         FXMLLoader loader =
                 new FXMLLoader(
                         getClass().getResource(
-                                "/com/example/demo2/cliente.fxml"
+                                "/com/example/demo2/clienteSalao.fxml"
                         )
                 );
 
@@ -27,7 +27,7 @@ public class SalaoController {
         FXMLLoader loader =
                 new FXMLLoader(
                         getClass().getResource(
-                                "/com/example/demo2/funcionario.fxml"
+                                "/com/example/demo2/funcionarioSalao.fxml"
                         )
                 );
 
