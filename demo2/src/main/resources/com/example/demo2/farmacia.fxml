@@ -22,6 +22,6 @@ onAction="#abrirTelaClienteFarmacia"/>
     <Button text="Cadastrar Funcionário"
 onAction="#abrirTelaFuncionarioFarmacia"/>
     <Button text="Cadastrar Remédio"
-onAction="#abrirTelaRemedio"/>
+onAction="#abrirTelaRemedios"/>
 
 </VBox>
