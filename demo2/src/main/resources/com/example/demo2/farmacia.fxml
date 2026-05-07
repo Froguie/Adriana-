@@ -16,8 +16,12 @@ fx:controller="com.example.demo2.controller.FarmaciaController">
 
     <Label text="Sistema da Farmácia"/>
 
-    <Button text="Cadastrar Cliente"/>
-    <Button text="Cadastrar Funcionário"/>
-    <Button text="Cadastrar Remédio"/>
+    <Button text="Cadastrar Cliente"
+onAction="#abrirTelaClienteFarmacia"/>
+
+    <Button text="Cadastrar Funcionário"
+onAction="#abrirTelaFuncionarioFarmacia"/>
+    <Button text="Cadastrar Remédio"
+onAction="#abrirTelaRemedio"/>
 
 </VBox>
