@@ -10,7 +10,7 @@ public class MenuController {
     public void abrirFarmacia(ActionEvent event) throws Exception {
 
         FXMLLoader loader =
-                new FXMLLoader(getClass().getResource("/com.example.demo2/farmacia.fxml"));
+                new FXMLLoader(getClass().getResource("/com/example/demo2/farmacia.fxml"));
 
         Stage stage = new Stage();
         stage.setScene(new Scene(loader.load()));
@@ -21,7 +21,7 @@ public class MenuController {
     public void abrirSalao(ActionEvent event) throws Exception {
 
         FXMLLoader loader =
-                new FXMLLoader(getClass().getResource("/com.example.demo2/salao.fxml"));
+                new FXMLLoader(getClass().getResource("/com/example/demo2/salao.fxml"));
 
         Stage stage = new Stage();
         stage.setScene(new Scene(loader.load()));
@@ -32,7 +32,7 @@ public class MenuController {
     public void abrirFeira(ActionEvent event) throws Exception {
 
         FXMLLoader loader =
-                new FXMLLoader(getClass().getResource("/com.example.demo2/feira.fxml"));
+                new FXMLLoader(getClass().getResource("/com/example/demo2/feira.fxml"));
 
         Stage stage = new Stage();
         stage.setScene(new Scene(loader.load()));
