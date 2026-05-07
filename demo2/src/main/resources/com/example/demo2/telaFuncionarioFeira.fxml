@@ -1,0 +1,10 @@
+<?import javafx.scene.control.*?> <?import javafx.scene.layout.*?>
+<VBox spacing-"10" alignment-"CENTER" xmnlns-"http://javafx.com/javafx/8" xmnlns:fx-"http://javafx.com/fxml/1">
+<!-- Título --> <Label text-"Cadastro de Funcionário" style-"-fx-font-size: 18px; -fx-font-weight: bold;" />
+<!-- Canpo None --> <TextField fx:id-"nomeField" promptText-"Nome" >
+<!-- Campo Horsrio --> <TextField fx:id-"horarioField" promptText-"Horário" />
+<!-- Campo Idade --> <TextField fx:id-"idadeField" promptText-"Idade" />
+<!-- Botton --> <Button text-"Atualizar idade" fx:id-"attidadeButton" />
+<!-- Botton --> <Button text-"Iniciar turno" fx:id-"iniciarButton" />
+<!-- Botton --> <Button text-"Buscar info" fx:id-"buscarButton" />
+</VBox>

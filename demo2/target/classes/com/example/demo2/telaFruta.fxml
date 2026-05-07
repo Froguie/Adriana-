@@ -1,0 +1,12 @@
+<?import javafx.scene.control.*?> 
+<?import javafx.scene.layout.*>
+<VBox spacing-"10" alignment-"CENTER" xmins-"http://javafx.com/javafx/8" xmlns:fx-"http://javafx.com/fxm1/1">
+<!-- Titulo --> <Label text-"Cadastro de Fruta" style-"-fx-font-size: 18px; -fx-font-weight: bold;" />
+<!-- Campo None --> <TextField
+fx:id-"nomeField" promptText-"Nome da fruta" />
+<!-- Campo Tipo --> <TextField fx:id-"tipoField" promptText-"Tipo" />
+<!-- Campo Quantidade --> <TextField fx:id-"quantidadeField" promptText="Quantidade"
+<!-- Botão --> <Button text-"Adicionar Quantidade" fx:id-"adcQuantidadeButton" />
+<!-- Botão --> <Button text-"Adicionar Fruta" fx:id-"adcFrutaButton" />
+<!-- Botão --> <Button text-"Exibir Estoque" fx:id-"exibirEstoqueButton" />
+</VBox>

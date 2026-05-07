@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER"
+      xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1">
+
+    <!-- Título -->
+    <Label text="Cadastro de Cliente"
+           style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+    <!-- Campo Nome -->
+    <TextField fx:id="nomeField" promptText="Nome" />
+
+    <!-- Campo Idade -->
+    <TextField fx:id="idadeField" promptText="Idade" />
+
+    <!-- Campo Telefone -->
+    <TextField fx:id="telefoneField" promptText="Telefone" />
+
+    <!-- Botões -->
+    <Button text="Atualizar Telefone" fx:id="attTelefoneButton" />
+    
+    <Button text="Atualizar Dados" fx:id="attDadosButton" />
+    
+    <Button text="Buscar Info" fx:id="buscarButton" />
+
+</VBox>
