@@ -16,8 +16,11 @@
 
     <Label text="Sistema da Feira"/>
 
-    <Button text="Cadastrar Cliente"/>
-    <Button text="Cadastrar Funcionário"/>
-    <Button text="Cadastrar Fruta"/>
+    <Button text="Cadastrar Cliente"
+onAction="#abrirTelaClienteFeira"/>
+    <Button text="Cadastrar Funcionário"
+onAction="#abrirTelaFuncionarioFeira"/>
+    <Button text="Cadastrar Fruta"
+onAction="#abrirTelaFruta"/>
 
 </VBox>
